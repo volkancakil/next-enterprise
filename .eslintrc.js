@@ -7,7 +7,6 @@ module.exports = {
     "prettier",
     "react-app",
     "react-app/jest",
-    "plugin:@typescript-eslint/recommended",
     "plugin:storybook/recommended",
     "plugin:tailwindcss/recommended",
   ],
@@ -17,6 +16,7 @@ module.exports = {
     },
   },
   rules: {
+    "tailwindcss/no-custom-classname": "off",
     "testing-library/prefer-screen-queries": "off",
     "@next/next/no-html-link-for-pages": "off",
     "@typescript-eslint/no-unused-vars": [
